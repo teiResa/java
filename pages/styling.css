@@ -1,6 +1,7 @@
 /*FOR THE NAV BAR */
 body {
-    background:url("http://www.sololearn.com/images/bg2.jpg");
+    /*background:url("http://www.sololearn.com/images/bg2.jpg"); */
+    background:url("https://teiresa.github.io/java/pages/files/background2.jpg");
 }
 nav {
     padding: 50px 0;
