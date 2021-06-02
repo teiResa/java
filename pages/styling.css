@@ -1,11 +1,19 @@
-/*FOR THE NAV BAR */
+/*FOR THE Background  */
 body {
     /*background:url("http://www.sololearn.com/images/bg2.jpg"); */
-    background:url("https://teiresa.github.io/java/pages/files/background2.jpg");
+    background-image: url('https://teiresa.github.io/java/pages/files/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
 }
+
+/*FOR THE NAV BAR */
 nav {
     padding: 50px 0;
     min-width: 500px;
+
 }
 nav ul {
     background: linear-gradient(90deg,
@@ -18,12 +26,17 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
+    padding-left: 5%;
 }
 nav ul li a {
     padding: 10px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 18px;
     font-family: Arial;
     text-decoration: none;
     display: block;
  }
+
+
+ /* Main font stuff */
+ /* */
